@@ -1,4 +1,4 @@
-import React, { useEffect, useState } from 'react';
+import { useEffect, useState } from 'react';
 import axios from 'axios';
 import './App.css'
 
@@ -17,7 +17,7 @@ interface RandomUser {
     city: string;
     state: string;
     country: string;
-    postcode: string | number;
+    postcode: string;
   };
   email: string;
   login: {
